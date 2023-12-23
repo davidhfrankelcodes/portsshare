@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  autossh-tunnel:
+    container_name: portsshare
+    build: .
+    volumes:
+      - ./config.yaml:/config.yaml
+      - ~/.ssh:/root/.ssh
+    restart: always
