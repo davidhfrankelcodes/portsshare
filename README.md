@@ -65,7 +65,11 @@ tunnel2_target_port: 9001
 
 4. **Check Tunnels**: Verify that the tunnels are established.
 
-5. **Stopping the Container**:
+   ```bash
+    docker-compose logs
+    ```
+
+6. **Stopping the Container**:
 
     ```bash
     docker-compose down
