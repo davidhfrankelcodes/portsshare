@@ -7,7 +7,7 @@ This project provides a Dockerized solution for setting up multiple SSH tunnels 
 ## Prerequisites
 
 - Docker and Docker Compose installed on your system.
-- SSH access set up between the source and target servers. Run `ssh-copy-id` command from the portSSHare host both source and target hosts.
+- SSH access set up between the source and target servers. Run `ssh-copy-id` command from the portSSHare host to both source and target hosts.
 - SSH keys configured for passwordless login.
 
 ## Configuration
