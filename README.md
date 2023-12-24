@@ -82,3 +82,9 @@ tunnel2_target_port: 9001
 - Ensure SSH keys are correctly set up for passwordless authentication.
 - Check that the specified ports are open and not blocked by firewalls.
 - For any connection issues, review the logs of the Docker container.
+- Check the sshd config at for example `/etc/ssh/sshd_config` and try again with the settings below.
+  ```bash
+    $ egrep "AllowTcpForwarding|GatewayPorts" /etc/ssh/sshd_config
+    AllowTcpForwarding yes
+    GatewayPorts yes
+  ```
