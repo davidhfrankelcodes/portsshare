@@ -49,7 +49,7 @@ tunnel2_target_port: 9001
 
 ## Usage
 
-1. **Prepare Configuration**: Edit the `config.yaml` file to define your SSH tunneling setup.
+1. **Prepare Configuration**: Copy the `config.yaml.example` file into a new file in the same location named `config.yaml` to define your SSH tunneling setup.
 
 2. **Build the Docker Container**:
 
