@@ -5,6 +5,8 @@ services:
     container_name: portsshare
     build: .
     volumes:
+      # Bind the config file so it can be edited without rebuilding the image
       - ./config.yaml:/config.yaml
+      # Bind the host's SSH keys so container appears as an authorized key
       - ~/.ssh:/root/.ssh
     restart: always
