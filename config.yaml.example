@@ -1,0 +1,17 @@
+tunnel1_source_ssh_user: username
+tunnel1_source_host: source-server.example.com
+tunnel1_source_host_ssh_port: 22
+tunnel1_source_port: 8080
+tunnel1_target_ssh_user: username
+tunnel1_target_host: target-server.example.com
+tunnel1_target_host_ssh_port: 22
+tunnel1_target_port: 9000
+
+tunnel2_source_ssh_user: username
+tunnel2_source_host: another-source-server.example.com
+tunnel2_source_host_ssh_port: 22
+tunnel2_source_port: 8000
+tunnel2_target_ssh_user: username
+tunnel2_target_host: target-server.example.com
+tunnel2_target_host_ssh_port: 22
+tunnel2_target_port: 9001
