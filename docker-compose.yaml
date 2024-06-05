@@ -1,6 +1,6 @@
 services:
   autossh-tunnel:
-    container_name: portsshare
+    container_name: ${CONTAINER_NAME:-portsshare}
     build: .
     volumes:
       # Bind the config file so it can be edited without rebuilding the image
